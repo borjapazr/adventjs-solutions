@@ -1,0 +1,25 @@
+{
+  "name": "adventjs-solutions",
+  "version": "1.0.0",
+  "description": "ASD",
+  "main": "makeItSnow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borjapazr/adventjs-solutions.git"
+  },
+  "keywords": [
+    "adventjs",
+    "midudev",
+    "javascript"
+  ],
+  "author": "Borja Paz Rodríguez (@borjapazr)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/borjapazr/adventjs-solutions/issues"
+  },
+  "homepage": "https://github.com/borjapazr/adventjs-solutions#readme"
+}
