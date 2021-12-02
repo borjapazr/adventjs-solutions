@@ -9,7 +9,7 @@ Encima nos hemos dado cuenta que algunas palabras vienen con un `_` delante de l
 Transforma el texto a un objeto que contenga el nombre de cada regalo y las veces que aparece. Por ejemplo, si tenemos el texto:
 
 ```javascript
-const carta = "bici coche balón _playstation bici coche peluche";
+const carta = 'bici coche balón _playstation bici coche peluche';
 ```
 
 Al ejecutar el método debería devolver lo siguiente:

@@ -8,10 +8,10 @@ Por ejemplo, si tenemos las ovejas:
 
 ```javascript
 const ovejas = [
-  { name: "Noa", color: "azul" },
-  { name: "Euge", color: "rojo" },
-  { name: "Navidad", color: "rojo" },
-  { name: "Ki Na Ma", color: "rojo" },
+  { name: 'Noa', color: 'azul' },
+  { name: 'Euge', color: 'rojo' },
+  { name: 'Navidad', color: 'rojo' },
+  { name: 'Ki Na Ma', color: 'rojo' }
 ];
 ```
 
