@@ -8,7 +8,9 @@ const isValid = letter => {
     !expectCloseStack.length;
 
   const parenthesesBlocks = letter.match(/(?:\()[^\(\)]*?(?:\))/g);
-  const hasWrongCharacters = parenthesesBlocks ? parenthesesBlocks.some(b => b.includes('{') || b.includes('[')) : true;
+  const hasWrongCharacters = parenthesesBlocks
+    ? parenthesesBlocks.some(b => b.includes('{') || b.includes('['))
+    : false;
 
   return hasBalancedParentheses && !hasEmptyParentheses && !hasWrongCharacters;
 };
