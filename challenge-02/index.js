@@ -1,4 +1,3 @@
-// Count words and discard whose start with _
 const listGifts = letter => {
   return letter
     .split(' ')
@@ -18,5 +17,5 @@ const resultadoCorrecto = {
   peluche: 1
 };
 
-console.log('Resultado correcto: ', resultadoCorrecto);
-console.log("Resultado 'listGifts()': ", listGifts(carta));
+console.log('Resultado correcto:', resultadoCorrecto);
+console.log("Resultado de listGifts('" + carta + "'):", listGifts(carta));

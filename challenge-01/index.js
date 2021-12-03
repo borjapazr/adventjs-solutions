@@ -34,6 +34,8 @@ const resultadoCorrecto = [
   { name: 'Ki Na Ma', color: 'rojo' }
 ];
 
-console.log('Resultado correcto: ', resultadoCorrecto);
-console.log("Resultado 'contarOvejas()': ", contarOvejas(ovejas));
-console.log("Resultado 'contarOvejasAlt()': ", contarOvejasAlt(ovejas));
+console.log('Datos de entrada:');
+console.table(ovejas);
+console.log('Resultado correcto:', resultadoCorrecto);
+console.log('Resultado de contarOvejas():', contarOvejas(ovejas));
+console.log('Resultado de contarOvejasAlt():', contarOvejasAlt(ovejas));

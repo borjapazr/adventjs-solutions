@@ -16,5 +16,9 @@ challenge-01: ## Runs challenge-01
 	@node ./challenge-01/index.js
 
 .PHONY: challenge-02
-challenge-02: ## Runs challenge-01
+challenge-02: ## Runs challenge-02
 	@node ./challenge-02/index.js
+
+.PHONY: challenge-03
+challenge-03: ## Runs challenge-03
+	@node ./challenge-03/index.js
