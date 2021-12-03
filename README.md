@@ -1,4 +1,4 @@
-# 🎅💻️ adventJS solutions ![GitHub CI Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/adventjs-solutions/CI?style=flat-square&logo=github&label=CI)
+# 🎅💻️ adventJS solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/adventjs-solutions/RESULTS?style=flat-square&logo=github&label=CI)](https://github.com/borjapazr/adventjs-solutions/actions)
 
 Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [adventJS](https://adventjs.dev/) website.
 
