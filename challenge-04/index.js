@@ -25,4 +25,23 @@ const createXmasTree = height => {
   return tree.trim();
 };
 
+const createXmasTreeAlt = height => {
+  const treeBody = Array.from({ length: height }, (_, index) =>
+    '*'
+      .repeat(2 * index + 1)
+      .padStart(index + height, '_')
+      .padEnd(height * 2 - 1, '_')
+      .concat('\n')
+  ).join('');
+
+  const treeTrunkHeight = 2;
+  const treeTrunk = '#'
+    .padStart(height, '_')
+    .padEnd(height * 2 - 1, '_')
+    .concat('\n')
+    .repeat(treeTrunkHeight);
+  return treeBody.concat(treeTrunk).trim();
+};
+
 console.log(createXmasTree(3));
+console.log(createXmasTreeAlt(3));
