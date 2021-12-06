@@ -27,6 +27,9 @@ jobs:
       - name: 💅 Check format
         run: npm run check:format
 
+      - name: 📑 Check lint
+        run: npm run check:lint
+
   test:
     name: 🧑‍🔬 Test project
     runs-on: ubuntu-latest
