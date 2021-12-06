@@ -1,12 +1,12 @@
 module.exports = {
   env: {
-    browser: true,
-    commonjs: true,
+    node: true,
     es2021: true,
     jest: true
   },
   parserOptions: {
-    ecmaVersion: 12
+    ecmaVersion: 12,
+    sourceType: 'module'
   },
   extends: ['airbnb-base', 'plugin:prettier/recommended', 'plugin:node/recommended'],
   rules: {
@@ -17,6 +17,8 @@ module.exports = {
     'no-process-exit': 'off',
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }]
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'import/prefer-default-export': 'off',
+    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }]
   }
 };

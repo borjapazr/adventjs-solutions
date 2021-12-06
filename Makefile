@@ -14,3 +14,8 @@ help: ## Show this help
 .PHONY: run
 run: ## Run and test challenges
 	@npm run test
+
+.PHONY: run/challenge-%
+run/challenge-XX: ## Run and test challenge XX
+run/challenge-%:
+	@npm run test -- -t "Challenge $*"

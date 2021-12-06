@@ -1,8 +1,4 @@
-const daysToXmas = date => {
-  const xmasDate = new Date(2021, 11, 25);
-  const msInADay = 1000 * 60 * 60 * 24;
-  return Math.ceil((xmasDate - date) / msInADay);
-};
+import { daysToXmas } from './solution';
 
 describe('Challenge 05: Contando los días para los regalos', () =>
   describe('daysToXmas should return', () => {
