@@ -17,16 +17,19 @@
     "url": "https://github.com/borjapazr/adventjs-solutions/issues"
   },
   "homepage": "https://github.com/borjapazr/adventjs-solutions#readme",
-  "type": "module",
   "main": "makeItSnow.js",
   "scripts": {
     "check:format": "prettier --check .",
     "fix:format": "prettier --check --write --ignore-unknown .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest"
   },
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0"
+  },
+  "dependencies": {
+    "jest": "^27.4.3"
   }
 }

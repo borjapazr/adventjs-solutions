@@ -46,9 +46,4 @@ jobs:
         run: npm ci
 
       - name: 🧪 Run challenges
-        run: |
-          for i in $(seq -f "%02g" 01 25)
-          do
-            [[ -d challenge-$i ]] && printf "🚀 Running challenge $i\n" && make challenge-$i && printf "✅ Challenge $i passed\n\n"
-          done
-          exit 0
+        run: make test
