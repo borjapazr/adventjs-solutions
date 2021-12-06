@@ -1,16 +1,16 @@
 const sumPairs = (numbers, result) => {
   const checkedCandidateAddends = {};
   let addendsCombination = null;
+  let mostLeftHandCandidateAddend = Number.MAX_VALUE;
 
   numbers.forEach((currentAddend, index) => {
-    const addend = result - currentAddend;
+    const candidateAddend = result - currentAddend;
 
-    if (addend in checkedCandidateAddends) {
-      if (
-        addendsCombination == null ||
-        checkedCandidateAddends[addend] < checkedCandidateAddends[addendsCombination[0]]
-      ) {
-        addendsCombination = [addend, currentAddend];
+    if (candidateAddend in checkedCandidateAddends) {
+      const candidateAddendLeftIndex = checkedCandidateAddends[candidateAddend];
+      if (mostLeftHandCandidateAddend > candidateAddendLeftIndex) {
+        addendsCombination = [candidateAddend, currentAddend];
+        mostLeftHandCandidateAddend = candidateAddendLeftIndex;
       }
     }
     checkedCandidateAddends[currentAddend] = index;
@@ -29,7 +29,11 @@ describe('Challenge 06: Rematando los exámenes finales', () =>
       [null, [[-3, -2, 7, -5], 10]],
       [
         [2, 2],
-        [[2, 2, 3, 1], 4]
+        [[2, 2, 3, 2, 1], 4]
+      ],
+      [
+        [2, 2],
+        [[2, 2, 3, 2, 1], 4]
       ],
       [
         [6, 2],
