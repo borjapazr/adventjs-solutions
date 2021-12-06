@@ -7,7 +7,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - Just run
 
   ```bash
-  make challenge-XX # where XX is the challenge number
+  make run
   ```
 
 ## 🚩 License
