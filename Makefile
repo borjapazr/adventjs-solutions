@@ -15,7 +15,9 @@ help: ## Show this help
 run/all: ## Run and test all challenges sequentially
 	@npm run test
 
-.PHONY: run/challenge-%
+CHALLENGES := $(shell seq -f "%02g" 1 25)
+CHALLENGE_TARGETS := $(addprefix run/challenge-,$(CHALLENGES))
+.PHONY: $(CHALLENGE_TARGETS)
 run/challenge-XX: ## Run and test challenge XX
-run/challenge-%:
+$(CHALLENGE_TARGETS): run/challenge-%:
 	@npm run test -- -t "Challenge $*"
