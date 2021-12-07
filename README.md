@@ -4,10 +4,16 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 
 ## 🚀 Quick start
 
-- Just run
+- Run all challenges
 
   ```bash
-  make run
+  make run/all
+  ```
+
+- Run specific challenge
+
+  ```bash
+  make run/challenge-XX # where XX is the challenge number
   ```
 
 ## 🚩 License
