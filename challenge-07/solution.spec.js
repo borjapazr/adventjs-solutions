@@ -40,7 +40,8 @@ describe('Challenge 07: Buscando en el almacén', () =>
           'gameboy'
         ]
       ],
-      [true, ['laptop', 'laptop']]
+      [true, ['laptop', 'laptop']],
+      [false, [null, 'laptop']]
     ])('%p when the input is %j', (expected, input) => {
       expect(contains(...input)).toEqual(expected);
       expect(containsDFRecursive(...input)).toEqual(expected);

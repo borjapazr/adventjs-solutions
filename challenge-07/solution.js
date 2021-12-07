@@ -1,6 +1,5 @@
 const contains = (store, product) =>
-  store === product ||
-  Object.values(store).some(item => (item instanceof Object ? contains(item, product) : item === product));
+  store instanceof Object ? Object.values(store).some(item => contains(item, product)) : store === product;
 
 // Depth-first tree traversal with recursion
 const containsDFRecursive = (store, product) => {
