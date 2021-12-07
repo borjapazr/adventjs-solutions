@@ -32,7 +32,9 @@
     "test:watch": "npm run test -- --watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
     "eslint": "^8.4.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-airbnb-base": "^15.0.0",
