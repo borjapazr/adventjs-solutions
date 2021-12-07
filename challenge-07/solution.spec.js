@@ -1,4 +1,4 @@
-import { containsDFRecursive, containsDFNonRecursive, containsBF } from './solution';
+import { contains, containsDFRecursive, containsDFNonRecursive, containsBF } from './solution';
 
 describe('Challenge 07: Buscando en el almacén', () =>
   describe('contains should return', () => {
@@ -39,8 +39,10 @@ describe('Challenge 07: Buscando en el almacén', () =>
           },
           'gameboy'
         ]
-      ]
+      ],
+      [true, ['laptop', 'laptop']]
     ])('%p when the input is %j', (expected, input) => {
+      expect(contains(...input)).toEqual(expected);
       expect(containsDFRecursive(...input)).toEqual(expected);
       expect(containsDFNonRecursive(...input)).toEqual(expected);
       expect(containsBF(...input)).toEqual(expected);
