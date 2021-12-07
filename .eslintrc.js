@@ -15,6 +15,7 @@ module.exports = {
     'no-console': 'off',
     'func-names': 'off',
     'no-process-exit': 'off',
+    'no-restricted-syntax': 'off',
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],

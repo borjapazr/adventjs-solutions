@@ -27,12 +27,13 @@
     "check:lint": "eslint . --ext .js --color",
     "fix:format": "prettier --check --write --ignore-unknown .",
     "fix:lint": "npm run check:lint -- --fix",
-    "prepare": "husky install",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "babel-jest": "^27.4.2",
     "eslint": "^8.4.0",
