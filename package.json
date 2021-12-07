@@ -27,6 +27,7 @@
     "check:lint": "eslint . --ext .js --color",
     "fix:format": "prettier --check --write --ignore-unknown .",
     "fix:lint": "npm run check:lint -- --fix",
+    "challenge": "runChallenge() { babel-node ./challenge-${1:-01}/solution.js; }; runChallenge",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "prepare": "husky install"
@@ -53,6 +54,7 @@
   },
   "dependencies": {
     "@jest/test-sequencer": "^27.4.2",
+    "cross-env": "^7.0.3",
     "jest": "^27.4.3"
   }
 }
