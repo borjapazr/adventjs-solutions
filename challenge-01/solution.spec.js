@@ -1,34 +1,40 @@
 import { contarOvejas, contarOvejasAlt } from './solution';
 
 describe('Challenge 01: Contando ovejas para dormir', () => {
-  describe('contarOvejas and contarOvejasAlt should return', () => {
-    const sheep = [
-      {
-        name: 'Noa',
-        color: 'azul'
-      },
-      {
-        name: 'Euge',
-        color: 'rojo'
-      },
-      {
-        name: 'Navidad',
-        color: 'rojo'
-      },
-      {
-        name: 'Ki Na Ma',
-        color: 'rojo'
-      }
+  describe('contarOvejas(...)', () => {
+    const testCases = [
+      createTestCase(
+        [
+          [
+            {
+              name: 'Noa',
+              color: 'azul'
+            },
+            {
+              name: 'Euge',
+              color: 'rojo'
+            },
+            {
+              name: 'Navidad',
+              color: 'rojo'
+            },
+            {
+              name: 'Ki Na Ma',
+              color: 'rojo'
+            }
+          ]
+        ],
+        [
+          { name: 'Navidad', color: 'rojo' },
+          { name: 'Ki Na Ma', color: 'rojo' }
+        ],
+        'should return a filtered sheep flock that contain red sheep and have an N and an A in its name'
+      )
     ];
 
-    const expectedResult = [
-      { name: 'Navidad', color: 'rojo' },
-      { name: 'Ki Na Ma', color: 'rojo' }
-    ];
-
-    it('a filtered sheep flock that contain red sheep and have an N and an A in its name', () => {
-      expect(contarOvejas(sheep)).toEqual(expectedResult);
-      expect(contarOvejasAlt(sheep)).toEqual(expectedResult);
+    it.each(testCases)('#$# $description', ({ args, expected }) => {
+      expect(contarOvejas(...args)).toEqual(expected);
+      expect(contarOvejasAlt(...args)).toEqual(expected);
     });
   });
 });
