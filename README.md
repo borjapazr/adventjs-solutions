@@ -4,14 +4,16 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 
 ## 🎮️ Challenges
 
-- [**Day 01**: Contando ovejas para dormir](challenge-01)
-- [**Day 02**: ¡Ayuda al elfo a listar los regalos!](challenge-02)
-- [**Day 03**: El Grinch quiere fastidiar la Navidad](challenge-03)
-- [**Day 04**: ¡Es hora de poner la navidad en casa!](challenge-04)
-- [**Day 05**: Contando los días para los regalos](challenge-05)
-- [**Day 06**: Rematando los exámenes finales](challenge-06)
-- [**Day 07**: Buscando en el almacén](challenge-07)
-- [**Day 08**: La locura de las criptomonedas](challenge-08)
+### 🦠 2021
+
+- [**Challenge 01**: Contando ovejas para dormir](challenge-01)
+- [**Challenge 02**: ¡Ayuda al elfo a listar los regalos!](challenge-02)
+- [**Challenge 03**: El Grinch quiere fastidiar la Navidad](challenge-03)
+- [**Challenge 04**: ¡Es hora de poner la navidad en casa!](challenge-04)
+- [**Challenge 05**: Contando los días para los regalos](challenge-05)
+- [**Challenge 06**: Rematando los exámenes finales](challenge-06)
+- [**Challenge 07**: Buscando en el almacén](challenge-07)
+- [**Challenge 08**: La locura de las criptomonedas](challenge-08)
 
 ## 🚀 Quick start
 
