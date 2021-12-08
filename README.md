@@ -4,8 +4,6 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 
 ## 🎮️ Challenges
 
-### 🦠 2021
-
 - [**Challenge 01**: Contando ovejas para dormir](challenge-01)
 - [**Challenge 02**: ¡Ayuda al elfo a listar los regalos!](challenge-02)
 - [**Challenge 03**: El Grinch quiere fastidiar la Navidad](challenge-03)
