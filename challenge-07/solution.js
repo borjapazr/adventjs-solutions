@@ -1,6 +1,8 @@
 const contains = (store, product) =>
   store instanceof Object ? Object.values(store).some(item => contains(item, product)) : store === product;
 
+const containsStringify = (store, product) => JSON.stringify(store).includes(JSON.stringify(product));
+
 // Depth-first tree traversal with recursion
 const containsDFRecursive = (store, product) => {
   if (store === product) {
@@ -62,4 +64,4 @@ const containsBF = (store, product) => {
   return false;
 };
 
-export { contains, containsDFRecursive, containsDFNonRecursive, containsBF };
+export { contains, containsStringify, containsDFRecursive, containsDFNonRecursive, containsBF };

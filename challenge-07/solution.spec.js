@@ -1,4 +1,4 @@
-import { contains, containsDFRecursive, containsDFNonRecursive, containsBF } from './solution';
+import { contains, containsStringify, containsDFRecursive, containsDFNonRecursive, containsBF } from './solution';
 
 describe('Challenge 07: Buscando en el almacén', () => {
   describe('contains(...)', () => {
@@ -52,6 +52,7 @@ describe('Challenge 07: Buscando en el almacén', () => {
 
     it.each(testCases)('#$# $description', ({ args, expected }) => {
       expect(contains(...args)).toEqual(expected);
+      expect(containsStringify(...args)).toEqual(expected);
       expect(containsDFRecursive(...args)).toEqual(expected);
       expect(containsDFNonRecursive(...args)).toEqual(expected);
       expect(containsBF(...args)).toEqual(expected);
