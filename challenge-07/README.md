@@ -1,44 +1,29 @@
-# Buscando en el almacén...
+# La locura de las criptomonedas
 
-> Tenemos un amigo que trabaja en una tienda y no es capaz de encontrar en el almacén los prductos que tiene... ¿Le ayudamos?
+> Hemos invertido en criptomonedas... Y el otro día se pusieron todos los valores en rojo. En lugar de asustarnos, vamos a ver si podemos optimizar nuevas inversiones.
 
-Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
+Invertir en criptomonedas es casi un deporte de riesgo. El otro día hackearon Bitmart y ha hecho que el valor de Bitcoin, y otras monedas, bajase un 25%.
 
-Vamos a crear una función `contains` que recibe dos parámetros: un objeto que define el almacén y el producto que buscamos.
+Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y debemos devolver la ganancia máxima que podríamos sacar si compramos y vendemos la inversión el mismo día.
 
-La función debe devolver un booleano que indique si se encuentra el string como valor en algún nivel del objeto. Veamos unos ejemplos:
+La lista de precios es un array de números y representa el tiempo de izquierda a derecha. Por lo que ten en cuenta que **no puedes comprar a un precio que esté a la derecha de la venta y no puedes vender a un precio que esté a la izquierda de la compra**.
+
+Por ejemplo:
 
 ```javascript
-const almacen = {
-  estanteria1: {
-    cajon1: {
-      producto1: 'coca-cola',
-      producto2: 'fanta',
-      producto3: 'sprite'
-    }
-  },
-  estanteria2: {
-    cajon1: 'vacio',
-    cajon2: {
-      producto1: 'pantalones',
-      producto2: 'camiseta' // <- ¡Está aquí!
-    }
-  }
-};
+const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
+maxProfit(pricesBtc); // -> 16 (compra a 18, vende a 34)
 
-contains(almacen, 'camiseta'); // true
-
-const otroAlmacen = {
-  baul: {
-    fondo: {
-      objeto: 'cd-rom',
-      'otro-objeto': 'disquette',
-      'otra-cosa': 'mando'
-    }
-  }
-};
-
-contains(otroAlmacen, 'gameboy'); // false
+const pricesEth = [10, 20, 30, 40, 50, 60, 70];
+maxProfit(pricesEth); // -> 60 (compra a 10, vende a 70)
 ```
 
-Ten en cuenta que la tienda es enorme. Tiene diferentes almacenes y, como has visto en los ejemplos, cada uno puede tener diferentes organizaciones. **Lo importante es buscar que el producto está en los almacénes**.
+**Si ese día no se puede sacar ningún beneficio**, tenemos que devolver `-1` para evitar que hagamos una locura:
+
+```javascript
+const pricesDoge = [18, 15, 12, 11, 9, 7]
+maxProfit(pricesDoge) = // -> -1 (no hay ganancia posible)
+
+const pricesAda = [3, 3, 3, 3, 3]
+maxProfit(pricesAda) = // -> -1 (no hay ganancia posible)
+```
