@@ -12,6 +12,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 06**: Rematando los exámenes finales](challenge-06)
 - [**Challenge 07**: Buscando en el almacén](challenge-07)
 - [**Challenge 08**: La locura de las criptomonedas](challenge-08)
+- [**Challenge 09**: Agrupando cosas automáticamente](challenge-09)
 
 ## 🚀 Quick start
 
