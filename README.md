@@ -16,16 +16,28 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 
 ## 🚀 Quick start
 
+- Install
+
+  ```bash
+  make install
+  # or
+  npm install
+  ```
+
 - Run all challenges
 
   ```bash
   make run/all
+  # or
+  npm run test
   ```
 
 - Run specific challenge
 
   ```bash
   make run/challenge-XX # where XX is the challenge number
+  # or
+  npm run test -- -t "Challenge XX" # where XX is the challenge number
   ```
 
 ## 🚩 License
