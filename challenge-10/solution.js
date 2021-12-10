@@ -1,8 +1,8 @@
 const getCoins = change => {
-  const availableCoins = [1, 2, 5, 10, 20, 50].reverse();
+  const availableCoins = [1, 2, 5, 10, 20, 50];
   let remainingChange = change;
   const changeReturn = [];
-  availableCoins.forEach((coin, index) => {
+  availableCoins.reverse().forEach((coin, index) => {
     changeReturn[index] = Math.floor(remainingChange / coin);
     remainingChange %= coin;
   });
