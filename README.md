@@ -13,6 +13,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 07**: Buscando en el almacén](challenge-07)
 - [**Challenge 08**: La locura de las criptomonedas](challenge-08)
 - [**Challenge 09**: Agrupando cosas automáticamente](challenge-09)
+- [**Challenge 10**: La máquina del cambio](challenge-10)
 
 ## 🚀 Quick start
 
