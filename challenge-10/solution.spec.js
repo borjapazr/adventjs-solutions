@@ -7,7 +7,8 @@ describe('Challenge 10: La máquina del cambio', () => {
       createTestCase([3], [1, 1, 0, 0, 0, 0]),
       createTestCase([5], [0, 0, 1, 0, 0, 0]),
       createTestCase([16], [1, 0, 1, 1, 0, 0]),
-      createTestCase([100], [0, 0, 0, 0, 0, 2])
+      createTestCase([100], [0, 0, 0, 0, 0, 2]),
+      createTestCase([-100], [0, 0, 0, 0, 0, 0])
     ];
 
     it.each(testCases)('#$# should return $expected when the change is $args.0', ({ args, expected }) => {
