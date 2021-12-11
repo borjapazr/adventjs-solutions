@@ -18,4 +18,5 @@ const sumPairs = (numbers, result) => {
 
   return addendsCombination;
 };
+
 export { sumPairs };
