@@ -14,6 +14,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 08**: La locura de las criptomonedas](challenge-08)
 - [**Challenge 09**: Agrupando cosas automáticamente](challenge-09)
 - [**Challenge 10**: La máquina del cambio](challenge-10)
+- [**Challenge 11**: ¿Vale la pena la tarjeta fidelidad del cine?](challenge-11)
 
 ## 🚀 Quick start
 
