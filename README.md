@@ -15,6 +15,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 09**: Agrupando cosas automáticamente](challenge-09)
 - [**Challenge 10**: La máquina del cambio](challenge-10)
 - [**Challenge 11**: ¿Vale la pena la tarjeta fidelidad del cine?](challenge-11)
+- [**Challenge 12**: La ruta perfecta para dejar los regalos](challenge-12)
 
 ## 🚀 Quick start
 
