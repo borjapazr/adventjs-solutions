@@ -17,6 +17,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 11**: ¿Vale la pena la tarjeta fidelidad del cine?](challenge-11)
 - [**Challenge 12**: La ruta perfecta para dejar los regalos](challenge-12)
 - [**Challenge 13**: Envuelve regalos con asteriscos](challenge-13)
+- [**Challenge 14**: En busca del reno perdido](challenge-14)
 
 ## 🚀 Quick start
 
