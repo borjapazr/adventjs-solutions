@@ -1,3 +1,4 @@
+// O(log(n)*(1 + n)) time complexity
 const missingReindeer = ids => {
   ids.sort((a, b) => a - b);
 
@@ -15,6 +16,7 @@ const missingReindeer = ids => {
   return leftIndex;
 };
 
+// O(n) time complexity
 const missingReindeerNonOptimal = ids => {
   const sumNatural = n => (n * (n + 1)) / 2;
 
