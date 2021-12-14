@@ -1,4 +1,4 @@
-import { missingReindeer } from './solution';
+import { missingReindeer, missingReindeerNonOptimal } from './solution';
 
 describe('Challenge 14: En busca del reno perdido', () => {
   describe('missingReindeer(...)', () => {
@@ -14,6 +14,7 @@ describe('Challenge 14: En busca del reno perdido', () => {
 
     it.each(testCases)('#$# should return $expected when the reindeers are $args.0', ({ args, expected }) => {
       expect(missingReindeer(...args)).toEqual(expected);
+      expect(missingReindeerNonOptimal(...args)).toEqual(expected);
     });
   });
 });
