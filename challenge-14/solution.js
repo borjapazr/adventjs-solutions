@@ -1,4 +1,4 @@
-// O(log(n)*(1 + n)) time complexity
+// O((n + 1)*log(n)) time complexity
 const missingReindeer = ids => {
   ids.sort((a, b) => a - b);
 
