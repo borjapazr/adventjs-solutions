@@ -11,8 +11,7 @@ describe('Challenge 15: El salto perfecto', () => {
       createTestCase([[1, 2, 3]], false),
       createTestCase([[1, 2, 3, 2, 1, 2, 3]], false),
       createTestCase([[1, 3]], false),
-      createTestCase([[1]], false),
-      createTestCase([null], false)
+      createTestCase([[1]], false)
     ];
 
     it.each(testCases)('#$# should return $expected when the jump is $args.0', ({ args, expected }) => {
