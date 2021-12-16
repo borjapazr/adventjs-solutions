@@ -19,6 +19,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 - [**Challenge 13**: Envuelve regalos con asteriscos](challenge-13)
 - [**Challenge 14**: En busca del reno perdido](challenge-14)
 - [**Challenge 15**: El salto perfecto](challenge-15)
+- [**Challenge 16**: Descifrando los números...](challenge-16)
 
 ## 🚀 Quick start
 
