@@ -22,6 +22,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 | 14  |          [En busca del reno perdido](challenge-14)           |       🟠       | [See](challenge-14/solution.js) |
 | 15  |              [El salto perfecto](challenge-15)               |       🟠       | [See](challenge-15/solution.js) |
 | 16  |          [Descifrando los números...](challenge-16)          |       🟢       | [See](challenge-16/solution.js) |
+| 17  |  [La locura de enviar paquetes en esta época](challenge-17)  |       🔴       | [See](challenge-17/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard
 
