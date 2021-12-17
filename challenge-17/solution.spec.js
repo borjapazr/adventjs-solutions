@@ -12,8 +12,7 @@ describe('Challenge 17: La locura de enviar paquetes en esta época...', () => {
           ],
           'dapelu'
         ],
-        9,
-        ''
+        9
       ),
       createTestCase(
         [
@@ -28,13 +27,15 @@ describe('Challenge 17: La locura de enviar paquetes en esta época...', () => {
           ],
           'camila'
         ],
-        15,
-        ''
+        15
       )
     ];
 
-    it.each(testCases)('#$# $description', ({ args, expected }) => {
-      expect(countPackages(...args)).toEqual(expected);
-    });
+    it.each(testCases)(
+      '#$# should return $expected packets when information for carrier $args.1 is requested.',
+      ({ args, expected }) => {
+        expect(countPackages(...args)).toEqual(expected);
+      }
+    );
   });
 });

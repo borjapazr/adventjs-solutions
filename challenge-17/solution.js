@@ -1,6 +1,11 @@
 const countPackages = (carriers, carrierID) => {
-  const carrier = carriers.find(c => c[0] === carrierID);
-  return carrier[2].reduce((acc, p) => acc + countPackages(carriers, p), carrier[1]);
+  const carrierData = carriers.find(carrier => carrier[0] === carrierID);
+  const carrierPackagesNumber = carrierData[1];
+  const carrieSubordinates = carrierData[2];
+  return carrieSubordinates.reduce(
+    (packagesNumber, subordinateCarrierId) => packagesNumber + countPackages(carriers, subordinateCarrierId),
+    carrierPackagesNumber
+  );
 };
 
 export { countPackages };
