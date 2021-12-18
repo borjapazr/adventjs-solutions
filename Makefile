@@ -17,11 +17,11 @@ install: ## Install dependencies
 
 .PHONY: run
 run/all: ## Run and test all challenges sequentially
-	@npm run test
+	@npm test
 
 CHALLENGES := $(shell seq -f "%02g" 1 25)
 CHALLENGE_TARGETS := $(addprefix run/challenge-,$(CHALLENGES))
 .PHONY: $(CHALLENGE_TARGETS)
 run/challenge-XX: ## Run and test challenge XX
 $(CHALLENGE_TARGETS): run/challenge-%:
-	@npm run test -- -t "Challenge $*"
+	@npm test "challenge-$*"

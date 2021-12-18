@@ -41,7 +41,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
   ```bash
   make run/all
   # or
-  npm run test
+  npm test
   ```
 
 - Run specific challenge
@@ -49,7 +49,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
   ```bash
   make run/challenge-XX # where XX is the challenge number
   # or
-  npm run test -- -t "Challenge XX" # where XX is the challenge number
+  npm test XX # where XX is the challenge number
   ```
 
 ## 🚩 License
