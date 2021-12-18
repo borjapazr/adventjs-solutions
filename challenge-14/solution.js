@@ -17,7 +17,7 @@ const missingReindeer = ids => {
 };
 
 // O(n) time complexity
-const missingReindeerNonOptimal = ids => {
+const missingReindeerAlt = ids => {
   const sumNatural = n => (n * (n + 1)) / 2;
 
   const maxReindeerId = ids.length;
@@ -27,4 +27,4 @@ const missingReindeerNonOptimal = ids => {
   return expectedSum - reindeersIdsSum;
 };
 
-export { missingReindeer, missingReindeerNonOptimal };
+export { missingReindeer, missingReindeerAlt };
