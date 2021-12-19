@@ -4,26 +4,27 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 
 ## 🎮️ Challenges
 
-|  #  |                          Challenge                           | Difficulty[^1] |            Solution             |
-| :-: | :----------------------------------------------------------: | :------------: | :-----------------------------: |
-| 01  |         [Contando ovejas para dormir](challenge-01)          |       🟢       | [See](challenge-01/solution.js) |
-| 02  |     [¡Ayuda al elfo a listar los regalos!](challenge-02)     |       🟢       | [See](challenge-02/solution.js) |
-| 03  |    [El Grinch quiere fastidiar la Navidad](challenge-03)     |       🟠       | [See](challenge-03/solution.js) |
-| 04  |    [¡Es hora de poner la navidad en casa!](challenge-04)     |       🟠       | [See](challenge-04/solution.js) |
-| 05  |      [Contando los días para los regalos](challenge-05)      |       🟢       | [See](challenge-05/solution.js) |
-| 06  |        [Rematando los exámenes finales](challenge-06)        |       🟠       | [See](challenge-06/solution.js) |
-| 07  |          [Buscando en el almacén...](challenge-07)           |       🟠       | [See](challenge-07/solution.js) |
-| 08  |        [La locura de las criptomonedas](challenge-08)        |       🟠       | [See](challenge-08/solution.js) |
-| 09  |       [Agrupando cosas automáticamente](challenge-09)        |       🔴       | [See](challenge-09/solution.js) |
-| 10  |            [La máquina del cambio](challenge-10)             |       🔴       | [See](challenge-10/solution.js) |
-| 11  | [¿Vale la pena la tarjeta fidelidad del cine?](challenge-11) |       🟠       | [See](challenge-11/solution.js) |
-| 12  |   [La ruta perfecta para dejar los regalos](challenge-12)    |       🔴       | [See](challenge-12/solution.js) |
-| 13  |       [Envuelve regalos con asteriscos](challenge-13)        |       🟢       | [See](challenge-13/solution.js) |
-| 14  |          [En busca del reno perdido](challenge-14)           |       🟠       | [See](challenge-14/solution.js) |
-| 15  |              [El salto perfecto](challenge-15)               |       🟠       | [See](challenge-15/solution.js) |
-| 16  |          [Descifrando los números...](challenge-16)          |       🟢       | [See](challenge-16/solution.js) |
-| 17  |  [La locura de enviar paquetes en esta época](challenge-17)  |       🔴       | [See](challenge-17/solution.js) |
-| 18  |     [El sistema operativo de Santa Claus](challenge-18)      |       🟢       | [See](challenge-18/solution.js) |
+|  #  |                          Challenge                           | Difficulty[^1] |             Solution             |
+| :-: | :----------------------------------------------------------: | :------------: | :------------------------------: |
+| 01  |         [Contando ovejas para dormir](challenge-01)          |       🟢       | [Show](challenge-01/solution.js) |
+| 02  |     [¡Ayuda al elfo a listar los regalos!](challenge-02)     |       🟢       | [Show](challenge-02/solution.js) |
+| 03  |    [El Grinch quiere fastidiar la Navidad](challenge-03)     |       🟠       | [Show](challenge-03/solution.js) |
+| 04  |    [¡Es hora de poner la navidad en casa!](challenge-04)     |       🟠       | [Show](challenge-04/solution.js) |
+| 05  |      [Contando los días para los regalos](challenge-05)      |       🟢       | [Show](challenge-05/solution.js) |
+| 06  |        [Rematando los exámenes finales](challenge-06)        |       🟠       | [Show](challenge-06/solution.js) |
+| 07  |          [Buscando en el almacén...](challenge-07)           |       🟠       | [Show](challenge-07/solution.js) |
+| 08  |        [La locura de las criptomonedas](challenge-08)        |       🟠       | [Show](challenge-08/solution.js) |
+| 09  |       [Agrupando cosas automáticamente](challenge-09)        |       🔴       | [Show](challenge-09/solution.js) |
+| 10  |            [La máquina del cambio](challenge-10)             |       🔴       | [Show](challenge-10/solution.js) |
+| 11  | [¿Vale la pena la tarjeta fidelidad del cine?](challenge-11) |       🟠       | [Show](challenge-11/solution.js) |
+| 12  |   [La ruta perfecta para dejar los regalos](challenge-12)    |       🔴       | [Show](challenge-12/solution.js) |
+| 13  |       [Envuelve regalos con asteriscos](challenge-13)        |       🟢       | [Show](challenge-13/solution.js) |
+| 14  |          [En busca del reno perdido](challenge-14)           |       🟠       | [Show](challenge-14/solution.js) |
+| 15  |              [El salto perfecto](challenge-15)               |       🟠       | [Show](challenge-15/solution.js) |
+| 16  |          [Descifrando los números...](challenge-16)          |       🟢       | [Show](challenge-16/solution.js) |
+| 17  |  [La locura de enviar paquetes en esta época](challenge-17)  |       🔴       | [Show](challenge-17/solution.js) |
+| 18  |     [El sistema operativo de Santa Claus](challenge-18)      |       🟢       | [Show](challenge-18/solution.js) |
+| 19  |     [¿Qué deberíamos aprender en Platzi?](challenge-19)      |       🟢       | [Show](challenge-19/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard
 
