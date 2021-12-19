@@ -24,7 +24,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 | 16  |          [Descifrando los números...](challenge-16)          |       🟢       | [Show](challenge-16/solution.js) |
 | 17  |  [La locura de enviar paquetes en esta época](challenge-17)  |       🔴       | [Show](challenge-17/solution.js) |
 | 18  |     [El sistema operativo de Santa Claus](challenge-18)      |       🟢       | [Show](challenge-18/solution.js) |
-| 19  |     [¿Qué deberíamos aprender en Platzi?](challenge-19)      |       🟢       | [Show](challenge-19/solution.js) |
+| 19  |     [¿Qué deberíamos aprender en Platzi?](challenge-19)      |       🟠       | [Show](challenge-19/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard
 
