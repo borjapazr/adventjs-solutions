@@ -32,7 +32,7 @@ describe('Challenge 17: La locura de enviar paquetes en esta época...', () => {
     ];
 
     it.each(testCases)(
-      '#$# should return $expected packets when information for carrier $args.1 is requested.',
+      '#$# should return $expected packets when information for carrier $args.1 is requested',
       ({ args, expected }) => {
         expect(countPackages(...args)).toEqual(expected);
       }

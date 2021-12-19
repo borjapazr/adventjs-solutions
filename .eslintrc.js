@@ -16,6 +16,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-console': 'off',
     'func-names': 'off',
+    'no-param-reassign': 'off',
     'no-process-exit': 'off',
     'no-restricted-syntax': 'off',
     'object-shorthand': 'off',

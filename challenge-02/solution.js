@@ -2,8 +2,7 @@ const listGifts = letter => {
   return letter
     .split(' ')
     .filter(word => word[0] !== '_' && word)
-    .reduce((prev, next) => {
-      const previous = { ...prev };
+    .reduce((previous, next) => {
       previous[next] = previous[next] + 1 || 1;
       return previous;
     }, {});
