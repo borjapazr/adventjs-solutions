@@ -1,12 +1,10 @@
-const pangram = letter => {
-  const totalDifferentCharacters = new Set(
+const pangram = letter =>
+  new Set(
     letter
       .toLowerCase()
       .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z]/g, '')
-  ).size;
-  return totalDifferentCharacters === 26 && letter.includes('ñ');
-};
+      .replace(/^(?!\u0303)[\u0300-\u036F]/g, '')
+      .replace(/[^\u0303a-z]/g, '')
+  ).size === 27;
 
 export { pangram };
