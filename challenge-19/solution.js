@@ -1,4 +1,4 @@
-// Window Sliding Technique -> O(n*logn)
+// Window Sliding Technique -> O(n*log(n)) time complexity
 const learn = (time, courses) => {
   let candidateCourseIds = null;
   let maximumAffordableDuration = 0;
