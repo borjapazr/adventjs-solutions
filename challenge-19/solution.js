@@ -1,3 +1,4 @@
+// Window Sliding Technique -> O(n*logn)
 const learn = (time, courses) => {
   let candidateCourseIds = null;
   let maximumAffordableDuration = 0;
