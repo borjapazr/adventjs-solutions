@@ -1,20 +1,13 @@
 const canCarry = (capacity, trip) => {
-  let currentGiftLoad = 0;
-  const giftsAtDeliveryPoint = {};
+  const giftAccumulator = {};
 
-  for (const stop of trip) {
-    const [numberOfGifts, collectionPoint, deliveryPoint] = stop;
-    if (collectionPoint in giftsAtDeliveryPoint) {
-      currentGiftLoad -= giftsAtDeliveryPoint[collectionPoint];
+  trip.forEach(([giftCount, collectionPoint, deliveryPoint]) => {
+    for (let i = collectionPoint; i < deliveryPoint; i++) {
+      giftAccumulator[i] = (giftAccumulator[i] ?? 0) + giftCount;
     }
-    currentGiftLoad += numberOfGifts;
-    if (currentGiftLoad > capacity) {
-      return false;
-    }
-    giftsAtDeliveryPoint[deliveryPoint] = numberOfGifts;
-  }
+  });
 
-  return true;
+  return Object.values(giftAccumulator).every(stopGiftCount => stopGiftCount <= capacity);
 };
 
 export { canCarry };
