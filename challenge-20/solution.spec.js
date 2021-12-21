@@ -1,4 +1,4 @@
-import { pangram } from './solution';
+import { pangram, pangramAlt } from './solution';
 
 describe('Challenge 20: ¿Una carta de pangramas? ¡QUÉ!', () => {
   describe('pangram(...)', () => {
@@ -11,6 +11,7 @@ describe('Challenge 20: ¿Una carta de pangramas? ¡QUÉ!', () => {
 
     it.each(testCases)('#$# should return $expected when we the letter is $args.0', ({ args, expected }) => {
       expect(pangram(...args)).toEqual(expected);
+      expect(pangramAlt(...args)).toEqual(expected);
     });
   });
 });

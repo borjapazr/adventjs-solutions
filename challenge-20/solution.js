@@ -7,4 +7,16 @@ const pangram = letter =>
       .replace(/[^\u0303a-z]/g, '')
   ).size === 27;
 
-export { pangram };
+const pangramAlt = letter => {
+  const sanitizedLetterSize = new Set(
+    letter
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z]/g, '')
+  ).size;
+
+  return sanitizedLetterSize === 26 && letter.includes('n') && letter.includes('ñ');
+};
+
+export { pangram, pangramAlt };
