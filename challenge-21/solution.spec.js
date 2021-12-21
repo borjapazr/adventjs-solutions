@@ -11,7 +11,8 @@ describe('Challenge 21: La ruta con los regalos', () => {
             [3, 6, 10]
           ]
         ],
-        false
+        false,
+        'should return false because Santa Claus can not carry all the presents'
       ),
       createTestCase(
         [
@@ -21,7 +22,8 @@ describe('Challenge 21: La ruta con los regalos', () => {
             [2, 2, 10]
           ]
         ],
-        true
+        true,
+        'should return true because Santa Claus can take all the presents'
       ),
       createTestCase(
         [
@@ -31,7 +33,8 @@ describe('Challenge 21: La ruta con los regalos', () => {
             [3, 5, 7]
           ]
         ],
-        true
+        true,
+        'should return true because Santa Claus can take all the presents'
       ),
       createTestCase(
         [
@@ -41,7 +44,8 @@ describe('Challenge 21: La ruta con los regalos', () => {
             [2, 5, 7]
           ]
         ],
-        true
+        true,
+        'should return true because Santa Claus can take all the presents'
       ),
       createTestCase([1, [[2, 3, 8]]], false),
       createTestCase(
@@ -52,15 +56,13 @@ describe('Challenge 21: La ruta con los regalos', () => {
             [2, 3, 8]
           ]
         ],
-        false
+        false,
+        'should return false because Santa Claus can not carry all the presents'
       )
     ];
 
-    it.each(testCases)(
-      '#$# should return $expected when we the capacity is $args.0 and the trip is $args.1',
-      ({ args, expected }) => {
-        expect(canCarry(...args)).toEqual(expected);
-      }
-    );
+    it.each(testCases)('#$# $description', ({ args, expected }) => {
+      expect(canCarry(...args)).toEqual(expected);
+    });
   });
 });
