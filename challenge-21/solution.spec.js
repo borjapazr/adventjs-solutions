@@ -47,7 +47,7 @@ describe('Challenge 21: La ruta con los regalos', () => {
         true,
         'should return true because Santa Claus can take all the presents'
       ),
-      createTestCase([1, [[2, 3, 8]]], false),
+      createTestCase([1, [[2, 3, 8]]], false, 'should return false because Santa Claus can not carry all the presents'),
       createTestCase(
         [
           2,
