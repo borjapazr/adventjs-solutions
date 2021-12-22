@@ -27,6 +27,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 | 19  |     [¿Qué deberíamos aprender en Platzi?](challenge-19)      |       🟠       | [Show](challenge-19/solution.js) |
 | 20  |        [¿Una carta de pangramas? ¡QUÉ!](challenge-20)        |       🟢       | [Show](challenge-20/solution.js) |
 | 21  |           [La ruta con los regalos](challenge-21)            |       🔴       | [Show](challenge-21/solution.js) |
+| 22  |     [¿Cuántos adornos necesita el árbol?](challenge-22)      |       🟠       | [Show](challenge-22/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard
 
