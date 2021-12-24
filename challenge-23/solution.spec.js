@@ -1,4 +1,4 @@
-import { canReconfigure } from './solution';
+import { canReconfigure, canReconfigureAlt } from './solution';
 
 describe('Challenge 23: ¿Puedes reconfigurar las fábricas para no parar de crear regalos?', () => {
   describe('canReconfigure(...)', () => {
@@ -13,6 +13,7 @@ describe('Challenge 23: ¿Puedes reconfigurar las fábricas para no parar de cre
       '#$# should return $expected when trying to convert $args.0 to $args.1',
       ({ args, expected }) => {
         expect(canReconfigure(...args)).toEqual(expected);
+        expect(canReconfigureAlt(...args)).toEqual(expected);
       }
     );
   });
