@@ -28,9 +28,10 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 | 20  |                  [¿Una carta de pangramas? ¡QUÉ!](challenge-20)                   |       🟢       | [Show](challenge-20/solution.js) |
 | 21  |                      [La ruta con los regalos](challenge-21)                      |       🔴       | [Show](challenge-21/solution.js) |
 | 22  |                [¿Cuántos adornos necesita el árbol?](challenge-22)                |       🟠       | [Show](challenge-22/solution.js) |
-| 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenge-23) |       🟠       | [Show](challenge-23/solution.js) |
+| 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenge-23) |       🟣       | [Show](challenge-23/solution.js) |
+| 24  |                   [Comparando árboles de Navidad](challenge-24)                   |       🟠       | [Show](challenge-24/solution.js) |
 
-[^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard
+[^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard 🟣 Very Hard
 
 ## 🚀 Quick start
 
