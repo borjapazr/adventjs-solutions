@@ -30,6 +30,7 @@ Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [ad
 | 22  |                [¿Cuántos adornos necesita el árbol?](challenge-22)                |       🟠       | [Show](challenge-22/solution.js) |
 | 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenge-23) |       🟣       | [Show](challenge-23/solution.js) |
 | 24  |                   [Comparando árboles de Navidad](challenge-24)                   |       🟠       | [Show](challenge-24/solution.js) |
+| 25  |            [El último juego y hasta el año que viene 👋](challenge-25)            |       🟠       | [Show](challenge-25/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard 🟣 Very Hard
 
