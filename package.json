@@ -52,6 +52,6 @@
   "dependencies": {
     "@jest/test-sequencer": "^28.0.2",
     "cross-env": "^7.0.3",
-    "jest": "^28.0.3"
+    "jest": "^28.1.0"
   }
 }
