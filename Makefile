@@ -15,13 +15,10 @@ help: ## Show this help
 install: ## Install dependencies
 	@npm install
 
-.PHONY: run
-run/all: ## Run and test all challenges sequentially
-	@npm test
+YEAR = ./*
+CHALLENGE = *
 
-CHALLENGES := $(shell seq -f "%02g" 1 25)
-CHALLENGE_TARGETS := $(addprefix run/challenge-,$(CHALLENGES))
-.PHONY: $(CHALLENGE_TARGETS)
-run/challenge-XX: ## Run and test challenge XX
-$(CHALLENGE_TARGETS): run/challenge-%:
-	@npm test "challenge-$*"
+.PHONY: run
+run: ## Run a challenge (make run YEAR=2022 CHALLENGE=01)
+	@npm test "$(YEAR)/challenge-$(CHALLENGE)"
+
