@@ -1,6 +1,12 @@
 # 🎅💻️ adventJS solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/adventjs-solutions/RESULTS?style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/adventjs-solutions/actions)
 
-Solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [adventJS](https://adventjs.dev/) website.
+<p align="center"> 
+  <img src=https://i.imgur.com/mOUN7uE.png/>
+</p>
+
+<h3 align="center">🧑‍🚀 25 días de retos con JavaScript • <a href="https://adventjs.dev">adventJS</a> 🚀</h3>
+
+This repository contains the solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [adventJS](https://adventjs.dev/) website.
 
 ## 🦠 2021
 
