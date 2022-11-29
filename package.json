@@ -33,8 +33,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/node": "^7.20.2",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "babel-jest": "^29.3.1",
     "eslint": "^8.28.0",
@@ -42,11 +42,11 @@
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^13.0.4",
     "prettier": "^2.8.0"
   },
   "dependencies": {
