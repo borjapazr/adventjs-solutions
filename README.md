@@ -4,7 +4,8 @@
   <img src=https://i.imgur.com/mOUN7uE.png/>
 </p>
 
-<h3 align="center">🧑‍🚀 25 días de retos con JavaScript • <a href="https://adventjs.dev">adventJS</a> 🚀</h3>
+<h3 align="center">🧑‍🚀 24 days /
+24 coding challenges • <a href="https://adventjs.dev">adventJS</a> 🚀</h3>
 
 This repository contains the solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [adventJS](https://adventjs.dev/) website.
 
@@ -54,9 +55,9 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 
 ### 🎮️ Challenges
 
-|  #  |     Challenge     | Difficulty[^1] | Solution |
-| :-: | :---------------: | :------------: | :------: |
-| 01  | `Comming soon...` |       -        |    -     |
+|  #  |                        Challenge                         | Difficulty[^1] |               Solution                |
+| :-: | :------------------------------------------------------: | :------------: | :-----------------------------------: |
+| 01  | [Automating Christmas gift wrapping!](2022/challenge-01) |       🟢       | [Show](2022/challenge-01/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard 🟣 Very Hard
 
