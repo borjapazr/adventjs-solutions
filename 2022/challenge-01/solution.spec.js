@@ -13,7 +13,6 @@ describe('Challenge 01: ¡Automatizando envolver regalos de Navidad!', () => {
       createTestCase([[]], [], 'should return en empty list if no gifts are given')
     ];
 
-    // Create a test case that check return type
     it('#T should return an array', () => {
       expect(wrapping([])).toBeInstanceOf(Array);
     });
