@@ -21,7 +21,7 @@ const holidays = ['01/06', '04/01', '12/25']; // format MM/DD
 countHours(year, holidays); // 2 days -> 4 extra hours in the year
 ```
 
-Things to keep in mind:
+**Things to keep in mind**:
 
 - The year can be a leap year. Make the checks you need for it, if necessary.
 - Although the holiday is December 31, the extra hours will be done the same year.

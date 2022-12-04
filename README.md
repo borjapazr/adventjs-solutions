@@ -55,12 +55,14 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 
 ### 🎮️ Challenges
 
-|  #  |                          Challenge                          | Difficulty[^1] |               Solution                |
-| :-: | :---------------------------------------------------------: | :------------: | :-----------------------------------: |
-| 01  |  [Automating Christmas gift wrapping!](2022/challenge-01)   |       🟢       | [Show](2022/challenge-01/solution.js) |
-| 02  | [Nobody wants to do extra hours at work](2022/challenge-02) |       🟢       | [Show](2022/challenge-02/solution.js) |
+|  #  |                           Challenge                           | Difficulty[^1] |               Solution                |
+| :-: | :-----------------------------------------------------------: | :------------: | :-----------------------------------: |
+| 01  |   [Automating Christmas gift wrapping!](2022/challenge-01)    |       🟢       | [Show](2022/challenge-01/solution.js) |
+| 02  |  [Nobody wants to do extra hours at work](2022/challenge-02)  |       🟢       | [Show](2022/challenge-02/solution.js) |
+| 03  | [How many packs of gifts can Santa carry?](2022/challenge-03) |       🟢       | [Show](2022/challenge-03/solution.js) |
+| 04  |     [Box inside a box and another...](2022/challenge-04)      |       🟠       | [Show](2022/challenge-04/solution.js) |
 
-[^1]: **Difficulty**: 🟢 Easy 🟠 Normal 🔴 Hard 🟣 Very Hard
+[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
 </details>
 
