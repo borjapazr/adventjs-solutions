@@ -63,6 +63,7 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 04  |     [Box inside a box and another...](2022/challenge-04)      |       🟠       | [Show](2022/challenge-04/solution.js) |
 | 05  |         [Optimizing Santa's trips](2022/challenge-05)         |       🔴       | [Show](2022/challenge-05/solution.js) |
 | 06  |        [Creating xmas decorations](2022/challenge-06)         |       🟠       | [Show](2022/challenge-06/solution.js) |
+| 07  |          [Doing gifts inventory](2022/challenge-07)           |       🟢       | [Show](2022/challenge-07/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
