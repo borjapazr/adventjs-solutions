@@ -61,7 +61,8 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 02  |  [Nobody wants to do extra hours at work](2022/challenge-02)  |       🟢       | [Show](2022/challenge-02/solution.js) |
 | 03  | [How many packs of gifts can Santa carry?](2022/challenge-03) |       🟢       | [Show](2022/challenge-03/solution.js) |
 | 04  |     [Box inside a box and another...](2022/challenge-04)      |       🟠       | [Show](2022/challenge-04/solution.js) |
-| 05  |         [Optimizing Santa's trips](2022/challenge-05)         |       🟠       | [Show](2022/challenge-05/solution.js) |
+| 05  |         [Optimizing Santa's trips](2022/challenge-05)         |       🔴       | [Show](2022/challenge-05/solution.js) |
+| 06  |        [Creating xmas decorations](2022/challenge-06)         |       🟠       | [Show](2022/challenge-06/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 

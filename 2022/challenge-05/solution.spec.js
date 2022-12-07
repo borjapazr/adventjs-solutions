@@ -1,6 +1,6 @@
 import { getMaxGifts } from './solution';
 
-describe("Challenge 04: Optimizing Santa's trips", () => {
+describe("Challenge 05: Optimizing Santa's trips", () => {
   describe('getMaxGifts(...)', () => {
     const testCases = [
       createTestCase([[12, 3, 11, 5, 7], 20, 3], 20, 'should return the maximum number of gifts that can be delivered'),
