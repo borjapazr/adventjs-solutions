@@ -33,7 +33,7 @@ describe('Challenge 07: Doing gifts inventory', () => {
       )
     ];
 
-    it('#T should return a number', () => {
+    it('#T should return an array', () => {
       expect(getGiftsToRefill([], [], [])).toBeInstanceOf(Array);
     });
 

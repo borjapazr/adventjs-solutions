@@ -17,7 +17,7 @@ describe('Challenge 06: Creating xmas decorations', () => {
       )
     ];
 
-    it('#T should return a number', () => {
+    it('#T should return a string', () => {
       expect(typeof createCube(1)).toBe('string');
     });
 
