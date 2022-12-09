@@ -1,16 +1,7 @@
 const checkPart = part => {
-  const middle = part.length / 2;
-
-  return [...part.slice(0, middle)].every((currentLeftLetter, index) => {
-    const nextLeftLetter = part[index + 1];
-    const currentRightLetter = part[part.length - index - 1];
-    const nextRightLetter = part[part.length - index - 2];
-
-    return (
-      currentLeftLetter === currentRightLetter ||
-      currentLeftLetter === nextRightLetter ||
-      nextLeftLetter === currentRightLetter
-    );
+  return [...part].some((_letter, i) => {
+    const nextPart = part.substring(0, i) + part.substring(i + 1);
+    return nextPart === [...nextPart].reverse().join('');
   });
 };
 
