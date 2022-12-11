@@ -67,6 +67,7 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 08  |           [We need a mechanic!](2022/challenge-08)            |       🟠       | [Show](2022/challenge-08/solution.js) |
 | 09  |            [Crazy Xmas lights](2022/challenge-09)             |       🟢       | [Show](2022/challenge-09/solution.js) |
 | 10  |       [The Santa Claus sleigh jump](2022/challenge-10)        |       🟠       | [Show](2022/challenge-10/solution.js) |
+| 11  |       [Santa Claus is Scrum Master](2022/challenge-11)        |       🔴       | [Show](2022/challenge-11/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
