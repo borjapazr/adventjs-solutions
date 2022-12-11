@@ -1,5 +1,5 @@
 const fitsInOneBox = boxes => {
-  const sortedBoxes = boxes.sort((firstBox, secondBox) => {
+  const sortedBoxes = [...boxes].sort((firstBox, secondBox) => {
     return firstBox.l - secondBox.l;
   });
 
@@ -14,4 +14,15 @@ const fitsInOneBox = boxes => {
   });
 };
 
-export { fitsInOneBox };
+const fitsInOneBoxAlt = boxes => {
+  const sortedBoxes = [...boxes].sort((firstBox, secondBox) => {
+    return secondBox.l - firstBox.l;
+  });
+
+  return sortedBoxes.slice(1).every(({ l: currentBoxL, w: currentBoxW, h: currentBoxH }, index) => {
+    const { l: previousBoxL, w: previousBoxW, h: previousBoxH } = sortedBoxes[index] || {};
+    return currentBoxL < previousBoxL && currentBoxW < previousBoxW && currentBoxH < previousBoxH;
+  });
+};
+
+export { fitsInOneBox, fitsInOneBoxAlt };

@@ -1,4 +1,4 @@
-import { countHours } from './solution';
+import { countHours, countHoursAlt } from './solution';
 
 describe('Challenge 02: Nobody wants to do extra hours at work', () => {
   describe('countHours(...)', () => {
@@ -15,10 +15,12 @@ describe('Challenge 02: Nobody wants to do extra hours at work', () => {
 
     it('#T should return a number', () => {
       expect(typeof countHours(2022, ['01/01'])).toBe('number');
+      expect(typeof countHoursAlt(2022, ['01/01'])).toBe('number');
     });
 
     it.each(testCases)('#$# $description', ({ args, expected }) => {
       expect(countHours(...args)).toEqual(expected);
+      expect(countHoursAlt(...args)).toEqual(expected);
     });
   });
 });

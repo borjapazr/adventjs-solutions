@@ -1,4 +1,4 @@
-import { distributeGifts } from './solution';
+import { distributeGifts, distributeGiftsAlt } from './solution';
 
 describe('Challenge 03: How many packs of gifts can Santa carry?', () => {
   describe('distributeGifts(...)', () => {
@@ -32,10 +32,12 @@ describe('Challenge 03: How many packs of gifts can Santa carry?', () => {
 
     it('#T should return a number', () => {
       expect(typeof distributeGifts([], [])).toBe('number');
+      expect(typeof distributeGiftsAlt([], [])).toBe('number');
     });
 
     it.each(testCases)('#$# $description', ({ args, expected }) => {
       expect(distributeGifts(...args)).toEqual(expected);
+      expect(distributeGiftsAlt(...args)).toEqual(expected);
     });
   });
 });
