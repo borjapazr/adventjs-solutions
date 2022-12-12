@@ -1,4 +1,4 @@
-import { fitsInOneBox, fitsInOneBoxAlt } from './solution';
+import { fitsInOneBox, fitsInOneBoxAlt, fitsInOneBoxSome } from './solution';
 
 describe('Challenge 04: Box inside a box and another...', () => {
   describe('fitsInOneBox(...)', () => {
@@ -51,11 +51,13 @@ describe('Challenge 04: Box inside a box and another...', () => {
     it('#T should return a boolean', () => {
       expect(typeof fitsInOneBox([{ l: 1, w: 1, h: 1 }])).toBe('boolean');
       expect(typeof fitsInOneBoxAlt([{ l: 1, w: 1, h: 1 }])).toBe('boolean');
+      expect(typeof fitsInOneBoxSome([{ l: 1, w: 1, h: 1 }])).toBe('boolean');
     });
 
     it.each(testCases)('#$# $description', ({ args, expected }) => {
       expect(fitsInOneBox(...args)).toEqual(expected);
       expect(fitsInOneBoxAlt(...args)).toEqual(expected);
+      expect(fitsInOneBoxSome(...args)).toEqual(expected);
     });
   });
 });
