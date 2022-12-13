@@ -8,7 +8,7 @@ On one hand, we have the **timestamp** of when the last backup was made.
 
 We also have the changes that have been made in an array of arrays. Each internal array contains **two elements**: the **id** of the modified file and the **timestamp** of the modification.
 
-You have to create a program that returns an array with the **id^^ of the files that we would have to make backup because they have been modified since the last backup and **sorted in ascending order\*\*. Example:
+You have to create a program that returns an array with the **id** of the files that we would have to make backup because they have been modified since the last backup and **sorted in ascending order**. Example:
 
 ```javascript
 const lastBackup = 1546300800;
