@@ -70,6 +70,7 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 11  |       [Santa Claus is Scrum Master](2022/challenge-11)        |       🔴       | [Show](2022/challenge-11/solution.js) |
 | 12  |          [Electric sleighs, wow!](2022/challenge-12)          |       🟠       | [Show](2022/challenge-12/solution.js) |
 | 13  |      [Backups for Santa Claus files](2022/challenge-13)       |       🟢       | [Show](2022/challenge-13/solution.js) |
+| 14  |              [The best path](2022/challenge-14)               |       🟢       | [Show](2022/challenge-14/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
