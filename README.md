@@ -1,4 +1,4 @@
-# 🎅💻️ adventJS solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/adventjs-solutions/RESULTS?style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/adventjs-solutions/actions)
+# 🎅💻️ adventJS solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/actions/workflow/status/borjapazr/adventjs-solutions/results.yml?branch=main&style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/adventjs-solutions/actions)
 
 <p align="center"> 
   <img src=https://i.imgur.com/mOUN7uE.png/>
