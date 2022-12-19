@@ -75,6 +75,7 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 16  |       [Fixing Santa Claus' letters](2022/challenge-16)        |       🔴       | [Show](2022/challenge-16/solution.js) |
 | 17  |          [Carrying gifts in bags](2022/challenge-17)          |       🟠       | [Show](2022/challenge-17/solution.js) |
 | 18  |            [We ran out of ink!](2022/challenge-18)            |       🟢       | [Show](2022/challenge-18/solution.js) |
+| 19  |            [Sorting the toys!](2022/challenge-19)             |       🟢       | [Show](2022/challenge-19/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
