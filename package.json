@@ -33,7 +33,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.7",
     "@babel/node": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "babel-jest": "^29.3.1",
