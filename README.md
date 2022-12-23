@@ -76,6 +76,9 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 17  |          [Carrying gifts in bags](2022/challenge-17)          |       🟠       | [Show](2022/challenge-17/solution.js) |
 | 18  |            [We ran out of ink!](2022/challenge-18)            |       🟢       | [Show](2022/challenge-18/solution.js) |
 | 19  |            [Sorting the toys!](2022/challenge-19)             |       🟢       | [Show](2022/challenge-19/solution.js) |
+| 20  |          [More challenging trips](2022/challenge-20)          |       🔴       | [Show](2022/challenge-20/solution.js) |
+| 21  |         [Creating the gifts table](2022/challenge-21)         |       🟠       | [Show](2022/challenge-21/solution.js) |
+| 22  |            [The lights in sync](2022/challenge-22)            |       🟢       | [Show](2022/challenge-22/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
