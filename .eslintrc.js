@@ -24,7 +24,8 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/prefer-default-export': 'off',
     'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
-    'no-bitwise': 'off'
+    'no-bitwise': 'off',
+    'no-use-before-define': 'off'
   },
   overrides: [
     {

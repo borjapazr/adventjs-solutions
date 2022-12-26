@@ -79,6 +79,8 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 | 20  |          [More challenging trips](2022/challenge-20)          |       🔴       | [Show](2022/challenge-20/solution.js) |
 | 21  |         [Creating the gifts table](2022/challenge-21)         |       🟠       | [Show](2022/challenge-21/solution.js) |
 | 22  |            [The lights in sync](2022/challenge-22)            |       🟢       | [Show](2022/challenge-22/solution.js) |
+| 23  |           [Santa Claus Compiler](2022/challenge-23)           |       🔴       | [Show](2022/challenge-23/solution.js) |
+| 24  |       [The last challenge is a maze](2022/challenge-24)       |       🔴       | [Show](2022/challenge-24/solution.js) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
